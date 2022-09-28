@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Pogoda</title>
+</head>
+<body>
+    <main>
+        <h1>Pogoda</h1>
+        <div class="container">
+            <div class="select_city">
+                <label for="miasto">Wybierz miasto.</label>
+                <select name="miasto" id="miasto" class="miasto">
+                </select>
+            </div>
+            <div class="datas">
+                <div class="side_info">
+                    <p>Stacja: <span id="stacja"></span> </p>
+                    <p>Data pomiaru: <span id="data_pomiaru"></span></p>
+                    <p>Godzina pomiaru: <span id="godzina_pomiaru"></span></p>
+                    <p>Suma opadów: <span id="suma_opadu"></span></p>
+                    <p>Ciśnienie: <span id="cisnienie"></span></p>
+                </div>
+                <div class="temp">
+                    <p>Temperatura <p id="temp">00.0</p></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+<script type="module" src="js/scripts.js"></script>
+</body>
+</html>
